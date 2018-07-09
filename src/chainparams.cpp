@@ -32,7 +32,7 @@ struct SeedSpec6 {
 /**
  * Main network
  */
-static bool regenerate = true;
+static bool regenerate = false;
 
 //! Convert the pnSeeds6 array into usable address objects.
 static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data, unsigned int count)
